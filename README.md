@@ -22,7 +22,7 @@ Note: it doesn 't use in this project Servlets as known in Java Web development,
 A very structured way to understand and nail down the steps required to build the web app container, it can now be compiled into ClosureScript that is a JS coding
 
 Metabase is a cool BI access all_dbms written in clojure
-[Metabase] [3]
+[Metabase][3]
 
 [3]: https://github.com/metabase/metabase
 # Install lein

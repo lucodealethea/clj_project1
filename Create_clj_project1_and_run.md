@@ -1,4 +1,4 @@
-# Create a new project
+# 1.Create a new project
 
 ```
 lein new clj_project1

@@ -27,7 +27,7 @@ ie.
 * ring-jetty-adapter - a Ring adapter that uses the Jetty webserver
 
 
-## Simplify Common Web Development Tasks with [lein-ring][4] plugin:
+## Simplify Common Web Development Tasks with [lein-ring][1] plugin:
 
 - start and reload, configuring standalone development web server (Ring Jetty adapter to start ...web app container server)
 - point to Ring web server handler function
@@ -73,6 +73,7 @@ your `project.clj` file:
 * `:async?` -
   If true, treat handler as an async handler. Default false.
 
+[1]: https://github.com/weavejester/lein-ring
 
 ##### Environment variables
 
@@ -261,7 +262,8 @@ compatibility with legacy Java interfaces; under most circumstances, you
 should use the normal `:resources-path` instead.
 
 ###
-TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
+Review [README.md][2]
+[2]: https://github.com/lucodealethea/clj_project1/blob/master/README.md
 ## Usage
 
 FIXME
@@ -274,8 +276,3 @@ Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
 
 
-[1]: https://github.com/technomancy/leiningen
-[2]: https://github.com/ring-clojure/ring
-[4]: https://github.com/weavejester/lein-ring
-[3]: https://github.com/metabase/metabase
-[5]: https://github.com/lucodealethea/clj_project1/blob/master/Create_clj_project1_and_run.md

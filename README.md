@@ -14,6 +14,9 @@ With two tools :
 
 Note: it doesn 't use in this project Servlets as known in Java Web development, even if ring-servlet could be used and produce such artefacts.
 
+[1]: https://github.com/technomancy/leiningen
+[2]: https://github.com/ring-clojure/ring
+
 # WHY CLOJURE ?
 
 A very structured way to understand and nail down the steps required to build the web app container, it can now be compiled into ClosureScript that is a JS coding
@@ -21,6 +24,7 @@ A very structured way to understand and nail down the steps required to build th
 Metabase is a cool BI access all_dbms written in clojure
 [Metabase] [3]
 
+[3]: https://github.com/metabase/metabase
 # Install lein
 
 Download its shell install script and makes it executable
@@ -37,8 +41,9 @@ sudo /usr/bin/lein
 ```
 # Next Steps:
 
-- [Create a simple project and run it] [5]
+- [Create a simple project and run it][5]
 
+[5]: https://github.com/lucodealethea/clj_project1/blob/master/Create_clj_project1_and_run.md
 
 ###
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
@@ -54,7 +59,6 @@ Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
 
 
-[1]: https://github.com/technomancy/leiningen
-[2]: https://github.com/ring-clojure/ring
-[3]: https://github.com/metabase/metabase
-[5]: https://github.com/lucodealethea/clj_project1/blob/master/Create_clj_project1_and_run.md
+
+
+

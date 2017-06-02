@@ -1,6 +1,10 @@
 # About
 
 Collection of links and materials grouped into various topics
+## Fedy on Fedora
+
+[Fedy](https://github.com/folkswithhats/fedy)
+
 ## AngularJS
 
 [Angular on HCP](https://www.sap.com/developer/tutorials/angular-getting-started.html)

@@ -73,7 +73,7 @@ your `project.clj` file:
 * `:async?` -
   If true, treat handler as an async handler. Default false.
 
-[1]: https://github.com/weavejester/lein-ring
+
 
 ##### Environment variables
 
@@ -135,20 +135,32 @@ ex. database connections pool and tear down
 (defn on-destroy []
   (println "Destroying sample webapp!"))
 ```
-### Start a Development Web Server and Live-Edit Our Code
+# 2.Start a Development Web Server and Live-Edit Our Code
 
-- with Lein and lein-ring plugin running our Ring Handlers
+- with Lein and [lein-ring][1] plugin running our Ring Handlers
 
 ```
 # without launching a web browser
 lein ring server-headless
 ```
 
-- will start the server listening on port as per configured our project.clj
-(default is port 3000)
+- the server can be run at a desired TCP port as per configured in our project.clj
+or auto-detect the first vacant one (default is port 3000)
+
 - we could also specify the port in the lein-ring instruction
+
 ```
 lein ring server-headless 4004
+#or launch firefox specifying the port
+firefox HTTP://localhost:4001/
+
+```
+- Now that the server is up, we can change core.clj and see the change
+on after saving
+```
+{:body "Hello Clojure Cruel World !"})
+```
+> Note that there is performance cost for that and that configuration options can be altered to avoid it.
 
 ### Web server options
 
@@ -169,7 +181,7 @@ The following options affect the behavior of the web server started by
   option is only for development with the `lein ring server` task.
   Setting this option will not cause a generated uberjar/uberwar to
   run an nREPL server.  If you would like to run an nREPL server in
-  your production app, then see the clojure.tools.nrepl.server
+  your production app, then see the [clojure.tools.nrepl.server][3]
   project.__
 
 ### Executable jar files
@@ -188,7 +200,7 @@ file to your web server and execute it with:
 ### Compiling
 
 Lein-Ring can generate war files that can be loaded onto legacy Java
-web services such as Apache Tomcat:
+web services such as Apache Tomcat / WebSphere:
 
     lein ring war
 
@@ -261,18 +273,22 @@ directories.) It's recommended that you only use WAR resources for
 compatibility with legacy Java interfaces; under most circumstances, you
 should use the normal `:resources-path` instead.
 
-###
-Review [README.md][2]
+### Next: [Build a war jar package][4]
+### Review [README.md][2]
+
+[1]: https://github.com/weavejester/lein-ring
 [2]: https://github.com/lucodealethea/clj_project1/blob/master/README.md
-## Usage
+[3]: https://github.com/clojure/tools.nrepl
+[4]: https://github.com/lucodealethea/clj_project1/blob/master/Uberwar_standard_jar.md
+
+# Usage
 
 FIXME
 
-## License
+# License
 
 Copyright © 2017 FIXME
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+
 
 

@@ -9,6 +9,7 @@ Collection of links and materials grouped into various topics
 [Leiningen]: https://github.com/technomancy/leiningen
 [Ring]: https://github.com/ring-clojure/ring
 [Metabase](https://github.com/metabase/metabase/blob/master/src/metabase/db/metadata_queries.clj)
+[BraveClojure](http://open-source.braveclojure.com/)
 
 ## Python
 
@@ -27,7 +28,6 @@ Collection of links and materials grouped into various topics
         - [Repository Structure and Python](http://www.kennethreitz.org/essays/repository-structure-and-python)
     - [Python Tips and Traps](https://www.airpair.com/python/posts/python-tips-and-traps)
     - [Automate the Boring Stuff with Python (Practical Programming for Total Beginners)](http://automatetheboringstuff.com/)
-    - [Реализация словаря в Python 2.7](http://habrahabr.ru/post/247843/)
     - [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)
     - [OOP concepts in Python 2.x - Part 1](http://lgiordani.com/blog/2014/03/05/oop-concepts-in-python-2-dot-x-part-1/)
     - [Screencasts about Python](https://www.neckbeardrepublic.com/screencasts/)
@@ -39,9 +39,6 @@ Collection of links and materials grouped into various topics
     - [A thorough guide to SQLite database operations in Python](http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html)
     - [Python web scraping resource](http://jakeaustwick.me/python-web-scraping-resource/)
     - [Analyzing the Web For the Price of a Sandwich](http://engineeringblog.yelp.com/2015/03/analyzing-the-web-for-the-price-of-a-sandwich.html)
-    - [Логирование в Python](http://blog.asmadews.ru/2014/04/python.html) #extra #python
-    - [Доставка свежей прессы с помощью Python прямо в почтовый ящик](http://habrahabr.ru/post/150940/)
-    - [Форматирование Python-кода](http://habrahabr.ru/post/251531/)
     - [Python Regular Expressions](https://developers.google.com/edu/python/regular-expressions)
     - [Awesome Python: A curated list of awesome Python frameworks, libraries and software](https://github.com/vinta/awesome-python)
     - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
@@ -51,7 +48,6 @@ Collection of links and materials grouped into various topics
     - [Basic motion detection and tracking with Python and OpenCV](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/)
     - [Creating a face detection API with Python and OpenCV (in just 5 minutes)](http://www.pyimagesearch.com/2015/05/11/creating-a-face-detection-api-with-python-and-opencv-in-just-5-minutes/)
     - [Nameko for Microservices](http://lucumr.pocoo.org/2015/4/8/microservices-with-nameko/)
-    - [Пишем кросс-платформенную библиотеку в Python](http://habrahabr.ru/company/acronis/blog/)
     - [Python for Android Tutorial ](https://bytedebugger.wordpress.com/2015/01/30/python-for-android-tutorial-6-saving-and-reading-user-data/)
     - [Python Singleton pattern - generic approach. Part II](http://tech.zarmory.com/2015/02/python-singleton-pattern-generic.html?m=1)
     - [Python Decorator Cheatsheet](http://www.pydanny.com/python-decorator-cheatsheet.html)
@@ -66,16 +62,6 @@ Collection of links and materials grouped into various topics
     - [Open-Sourcing Your Own Python Library 101](https://www.endgame.com/blog/open-sourcing-your-own-python-library-101)
     - [Serialization, Don’t use pickle — use Camel](https://eev.ee/blog/2015/10/15/dont-use-pickle-use-camel/)
     - [A 3D Modeller with Python by Erick Dransch](http://aosabook.org/en/500L/a-3d-modeller.html) and [code](https://github.com/aosabook/500lines/tree/master/modeller)
-* Python on Habrahabr
-    - [Руководство по магическим методам в Питоне](http://habrahabr.ru/post/186608/)
-    - [Python: вещи, которых вы могли не знать](http://habrahabr.ru/post/207988/)
-    - [Некоторые возможности Python о которых вы возможно не знали](http://habrahabr.ru/post/196382/)
-    - [Советы Google по кодированию на языке Python. Часть первая: советы по программированию](http://habrahabr.ru/post/179271/)
-    - [Пишем красивый идиоматический Python](http://habrahabr.ru/post/204476/)
-    - [NumPy, пособие для новичков. Часть 1](http://habrahabr.ru/post/121031/)
-    - [Gray Hat Python — DLL и Code Injection](http://habrahabr.ru/post/151621/)
-    - [Gray Hat Python — Immunity Debugger](http://habrahabr.ru/post/134407/)
-    - [Профилирование и отладка Python, отладка](http://habrahabr.ru/company/mailru/blog/205426/)
 * Python Useful Tools for Installation
     - [How We Deploy Python Code](https://nylas.com/blog/packaging-deploying-python)
     - [Anaconda](https://store.continuum.io/cshop/anaconda/)
@@ -101,14 +87,11 @@ Collection of links and materials grouped into various topics
     - [Monthly Challenges for Game Development in Python](https://pyweek.org/)
 * Generator in Python
     - [Generator Tricks for Systems Programmers](http://dabeaz.com/generators/)
-    - [Как работает yield](http://habrahabr.ru/post/132554/)
     - [A Curious Course on Coroutines and Concurrency](http://dabeaz.com/coroutines/)
     - [Improve Your Python: 'yield' and Generators Explained](http://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/)
     - [Improve Your Python: Decorators Explained](http://www.jeffknupp.com/blog/2013/11/29/improve-your-python-decorators-explained/)
     - [Introduction to Python Generators](http://c4obi.svbtle.com/python-generators)
 * Games and Python
-    - [Пишем платформер на Python, используя pygame](http://habrahabr.ru/post/193888/)
-    - [Пишем платформер на python, используя pygame. Часть 2 подчасть 2. Редактор уровней](http://habrahabr.ru/post/204112/)
     - [oTree is a Django-based framework for implementing multiplayer decision strategy games](https://github.com/oTree-org/otree)
 * Python and Hardware
     - [Using a Raspberry Pi, Arduino and Python for disguise detection](http://www.aicbt.com/disguise-detection/)
@@ -225,6 +208,7 @@ Collection of links and materials grouped into various topics
 ### openHPI and open SAP
 
 * Future
+
 * Interesting
     - [ABAP Development for SAP HANA](https://open.sap.com/courses/a4h1)
     - [Introduction to Mobile Solution Development](https://open.sap.com/courses/3/progress)
